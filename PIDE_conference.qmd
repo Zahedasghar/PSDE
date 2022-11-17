@@ -396,13 +396,21 @@ gA <- ggplotGrob(p1)
 
 :::
 
+. . .
+
 > #### Expose graduates to a wide variety of skills, mentoring them on reliable resources, strengthening soft skills and enabling them to move on a continuous learning path.
 
-> #### Create opportunities for working learners for re-skilling and up-skilling opportunities.
+. . .
+
+> #### [Create opportunities for working learners for re-skilling and up-skilling opportunities.]{.hi-orange} 
+
+. . .
 
 > #### Factory forced learning model based on fixed time to learning outcome based model
 
-> #### The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity. 
+. . .
+
+> #### [The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity.]{.hi-orange} 
 
 
 # {background-color="#264653"}
