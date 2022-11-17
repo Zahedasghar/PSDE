@@ -47,15 +47,15 @@ options(digits = 3, width = 75)
 
 ## 
 
-![](youth_bulge.png){.r-strech width="719"}
-
-## 
-
-![](productivity.jpg)
+![](Youth_bulge.png){.r-strech width="719"}
 
 ## 
 
 ![](future_of_work.png){fig-align="center" height="900"}
+
+## 
+
+![](productivity.jpg)
 
 ## Outline {background-color="#264653"}
 
@@ -92,14 +92,14 @@ options(digits = 3, width = 75)
 
 ##  {background-color="#264653"}
 
-> ### ["People will need to embrace digital and intelligent technologies if they're going to be successful in their jobs," Tom shared. "I worked with a radiologist in the Boston area who also has a Ph.D. in AI. And he kept saying, 'The only radiologists who are gonna lose their jobs to AI are those who refuse to work with AI.'"]{.hi-orange}  
+> ### ["People will need to embrace digital and intelligent technologies if they're going to be successful in their jobs," Tom shared. "I worked with a radiologist in the Boston area who also has a Ph.D. in AI. And he kept saying, 'The only radiologists who are gonna lose their jobs to AI are those who refuse to work with AI.'"]{.hi-orange}
 
 ::: callout-tip
 ## According to Robert Solow (2022 Prefeace The Work of the Future)
--   Maintaining a skilled and adaptable labor force : productivity. 
 
--   Easy access to education can function as an equalizing factor,
-although it is pretty clear that it does not perform this function very well 
+-   Maintaining a skilled and adaptable labor force : productivity.
+
+-   Easy access to education can function as an equalizing factor, although it is pretty clear that it does not perform this function very well
 
 -   Finally, the system of education and training maintains a common culture and a common understanding of citizenship. The point I was making just now was only that more training or even better training does not necessarily lead to higher employment.
 :::
@@ -130,15 +130,13 @@ although it is pretty clear that it does not perform this function very well
 
 ## [Research Questions]{.hi-orange} {.left background-color="#264653"}
 
-
 ### How graduates' rate themselves on skills for jobs of today and tomorrow?
 
 ### [How can institutions of higher learning enable their students to be on a continuous learning path and provide opportunities to working population for upskilling/reskilling?]{.hi-orange}
 
 ### Or stated slightly in a different way: How universities can prepare graduates for ever-fast changing job skills?
 
-
-## 
+## Routine vs Nonroutine Jobs
 
 ![](routine_nonroutine.png)
 
@@ -388,17 +386,22 @@ gA <- ggplotGrob(p1)
 
 # Universities Role {background-color="#264653"}
 
-## Key Recommendations:
+## Key Recommendations: {background-color="#264653"}
 
 ::: callout-caution
 ## Weise(2020) Long Life Learning
 
-**["If we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future."]{.hi-red}**
+### [**"If we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future."**]{.hi-red}
 :::
 
-> ### Exposing graduates to a wide variety of skills, mentoring them on reliable resources, strengthening soft skills and enabling them to move on a continuous learning path. There is need to create opportunities for working learners for re-skilling and up-skilling opportunities. The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity.
+> #### Expose graduates to a wide variety of skills, mentoring them on reliable resources, strengthening soft skills and enabling them to move on a continuous learning path.
+
+> #### Create opportunities for working learners for re-skilling and up-skilling opportunities.
+
+> #### Factory forced learning model based on fixed time to learning outcome based model
+
+> #### The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity.
 
 ## 
 
 ![](smart.gif){.r-strech}
-
