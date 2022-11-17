@@ -47,7 +47,7 @@ options(digits = 3, width = 75)
 
 ## 
 
-![](Youth_bulge.png){.r-strech width="719"}
+![](Youth_bulge.png)
 
 ## 
 
@@ -389,9 +389,11 @@ gA <- ggplotGrob(p1)
 ## Key Recommendations: {background-color="#264653"}
 
 ::: callout-caution
-## Weise(2020) Long Life Learning
 
-### [**"If we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future."**]{.hi-red}
+### Weise(2020) Long Life Learning
+
+### [**"If we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future."**]{.hi-red} 
+
 :::
 
 > #### Expose graduates to a wide variety of skills, mentoring them on reliable resources, strengthening soft skills and enabling them to move on a continuous learning path.
@@ -400,8 +402,10 @@ gA <- ggplotGrob(p1)
 
 > #### Factory forced learning model based on fixed time to learning outcome based model
 
-> #### The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity.
+> #### The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity. 
 
-## 
 
-![](smart.gif){.r-strech}
+# {background-color="#264653"}
+
+
+![](smart.gif){.center}
