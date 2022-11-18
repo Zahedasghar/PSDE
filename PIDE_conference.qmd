@@ -33,7 +33,7 @@ options(digits = 3, width = 75)
 
 # 36th AGM and Conference of PSDE <br> Charter of Economy <br> Investment, Productivity & Employment {background-color="#264653"}
 
-## Assessing graduates readiness for jobs of today and tomorrow {background-color="#264653"}
+## Assessing graduates' readiness for jobs of today and tomorrow {background-color="#264653"}
 
 ::: columns
 ::: {.column width="30%"}
@@ -45,28 +45,39 @@ options(digits = 3, width = 75)
 :::
 :::
 
+##  Outline {background-color="#264653"}
+
+###   **Huge youth bulge, unemployment, low economic growth**
+###   [**Lower productivity, stagnant output**]{.hi-orange}
+###   **Traditional skills** 
+###   [**Universities : Business as usual**]{.hi-orange}
+###   **Shift from old paradigm to new paradigm**
+###   [**New learning ecosystem**]{.hi-orange}
+
 ## 
 
 ![](Youth_bulge.png)
 
 ## 
 
-![](future_of_work.png){fig-align="center" height="900"}
+![](future_of_work.png){fig-align="center" height="900"} 
+
+::: notes 
+The theory we are talking about states that a so-called “youth bulge”, which describes an excess in the young population of a country, is the real (and main) hidden force behind political instability. The term was first used by Gary Fuller in 1995, then adopted by the renowned political scientist Samuel Huntington, and later extended and popularized by German sociologist and economist Gunnar Heinsohn in his book “Söhne und Weltmacht” (2003, new ed. 2019).
+The basic idea is that resources are limited and are owned and managed by (older) adults. This is also true for (political) power. Young people want a piece of the action. The bigger the imbalance, i.e. the more young people there are, the bigger the conflicts because more young people fight for their place in the economy and society. 
+
+:::
 
 ## 
 
 ![](productivity.jpg)
 
-## Outline {background-color="#264653"}
+# {background-color="#264653"}
 
--   **Huge youth bulge, unemployment, low economic growth**
--   [**Lower productivity, stagnant output**]{.hi-orange}
--   **Traditional skills**
--   [**Universities : Business as usual**]{.hi-orange}
--   **Shift from old paradigm to new paradigm**
--   [**New learning ecosystem**]{.hi-orange}
 
-## Skills required vs skills acquired {background-color="#264653"}
+![](smart.gif){.center}
+
+## Challenges {background-color="#264653"}
 
 -   **Chasm between skills required and skill prevailing**
 
@@ -86,13 +97,13 @@ options(digits = 3, width = 75)
 
 ### Questions
 
-> [**What sort of skilling and reskilling may help our burgeoning young population and labor force to unlock their potential?**]{.hi-orange}
+> [**What sort of skilling and reskilling may help our burgeoning young population and labor force to unlock its potential?**]{.hi-orange}
 
 > [**How , what types and where long-term investment be made by the institutions in skilling, reskilling and upskilling of youth and working population should be made?**]{.hi-orange}
 
 ##  {background-color="#264653"}
 
-> ### ["People will need to embrace digital and intelligent technologies if they're going to be successful in their jobs," Tom shared. "I worked with a radiologist in the Boston area who also has a Ph.D. in AI. And he kept saying, 'The only radiologists who are gonna lose their jobs to AI are those who refuse to work with AI.'"]{.hi-orange}
+> ### ["People will need to embrace digital and intelligent technologies if they're going to be successful in their jobs," Tom shared. "I worked with a radiologist in the Boston area who also has a Ph.D. in AI. And he kept saying, 'The only radiologists who are gonna lose their jobs to AI are those who refuse to work with AI.'"]{.hi-orange} [Working with AI: Real Stories of Human-Machine Collaboration](https://www.amazon.com/Working-AI-Human-Machine-Collaboration-Management-ebook/dp/B09P9GRQ17/ref=sr_1_1?crid=2U04PYZ0GCG2L&keywords=Working+with+AI%3A+Real+Stories+of+Human-Machine+Collaboration&qid=1663687252&sprefix=working+with+ai+real+stories+of+human-machine+collaboration%2Caps%2C103&sr=8-1)
 
 ::: callout-tip
 ## According to Robert Solow (2022 Prefeace The Work of the Future)
@@ -136,17 +147,6 @@ options(digits = 3, width = 75)
 
 ### Or stated slightly in a different way: How universities can prepare graduates for ever-fast changing job skills?
 
-## Routine vs Nonroutine Jobs
-
-![](routine_nonroutine.png)
-
-## 
-
-![](reskilling.gif)
-
-## 
-
-![](reskill.gif)
 
 # Survey Results
 
@@ -270,10 +270,9 @@ m1 <-
   as.matrix()
 
 rownames(m1) <- Data$Skills
-fm2 <- CA(X =  m1, graph = TRUE)
+fm2 <- CA(X =  m1, graph = FALSE)
 ```
 
-## bi-plot
 
 ```{r}
 
@@ -372,6 +371,8 @@ gA <- ggplotGrob(p1)
 | Masters       | 117.54         |
 | PhDs          | 350.00         |
 
+# Universities Role {background-color="#264653"} 
+
 ## Learning Ecosystem
 
 ::: columns
@@ -383,8 +384,6 @@ gA <- ggplotGrob(p1)
 ![](New_reality.png){.r-strech}
 :::
 :::
-
-# Universities Role {background-color="#264653"}
 
 ## Key Recommendations: {background-color="#264653"}
 
@@ -413,7 +412,3 @@ gA <- ggplotGrob(p1)
 > #### [The most effective way to impart/attain future job skills is to focus on integrating required skills with a new learning eco-system for our youth to have decent jobs and employers improve their efficiency and productivity.]{.hi-orange} 
 
 
-# {background-color="#264653"}
-
-
-![](smart.gif){.center}
