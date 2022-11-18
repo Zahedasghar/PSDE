@@ -45,6 +45,14 @@ options(digits = 3, width = 75)
 :::
 :::
 
+## [Research Questions]{.hi-orange} {.left background-color="#264653"}
+
+### How graduates' rate themselves  on skills for jobs of today and tomorrow?
+
+### [How can institutions of higher learning enable their students to be on a continuous learning path and provide opportunities to working population for upskilling/reskilling?]{.hi-orange}
+
+### Or stated slightly in a different way: What type of learning eco-system is required for ever-fast changing job skills?
+
 ##  Outline {background-color="#264653"}
 
 ###   **Huge youth bulge, unemployment, low economic growth**
@@ -138,14 +146,6 @@ The basic idea is that resources are limited and are owned and managed by (older
 ::: notes
 **Skill inequality gap based on degree and its quality is huge**
 :::
-
-## [Research Questions]{.hi-orange} {.left background-color="#264653"}
-
-### How graduates' rate themselves on skills for jobs of today and tomorrow?
-
-### [How can institutions of higher learning enable their students to be on a continuous learning path and provide opportunities to working population for upskilling/reskilling?]{.hi-orange}
-
-### Or stated slightly in a different way: How universities can prepare graduates for ever-fast changing job skills?
 
 
 # Survey Results
