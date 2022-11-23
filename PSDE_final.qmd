@@ -3,7 +3,7 @@ title: "36th AGM and Conference of PSDE <br> [Charter of Economy]{.hi-orange} <b
 
 date: "November 22-24, 2022"
 format:
-  revealjs:
+  pptx:
     theme: [default, custom.scss]
     logo: "PIDE-logo.jpg"
     scss: logo.scss
@@ -33,18 +33,18 @@ options(digits = 3, width = 75)
 ```
 
 
-## Assessing graduates' readiness for jobs of today and tomorrow {background-color="#264653"}
+## Assessing graduates' readiness for jobs of today and tomorrow  
 
 ::: columns
 ::: {.column width="30%"}
 [Zahid Asghar <br> School of Economics <br> Quaid-i-Azam University, Islamabad]{.hi-orange}
-[<a href="mailto:zasghar@qau.edu.pk"><i class="fa fa-paper-plane fa-fw"></i>zasghar\@qau.edu.pk</a> <br> <a href="https://github.com/zahedasghar"><i class="fa fa-github fa-fw"></i>zahedasghar</a><br> <a href="https://QMR.zahidasghar.com"> <i class="fa fa-globe fa-fw"></i>zahidasghar.com</a><br>]{.custom-institution}
 :::
 
 ::: {.column width="50%"}
 ![](agm.jpg){width="900"}
 :::
 :::
+
 
 ## [Research Questions]{.hi-orange} {.left background-color="#264653"}
 
@@ -56,12 +56,9 @@ options(digits = 3, width = 75)
 
 ### [What type of learning eco-system can enable higher education institutions to prepare graduates work ready and continuous learners]{.hi-orange} 
 
-::: callout-caution
-##
-[3rd decade of the 21st century is being characterized as the ‘Talent wars’ perhaps eclipsing the conflict for resources, ideology, territory etc. Talent flows to the highest bidder. Talent thrives in economic and competitive environments.]{.hi-orange}
-Israel and Japan living examples of our times.
-:::
 
+
+-   3rd decade of the 21st century is being characterized as the ‘Talent wars’ perhaps eclipsing the conflict for resources, ideology, territory etc. Talent flows to the highest bidder. Talent thrives in economic and competitive environments.
 
 ::: notes
 First, the advancing digitalization of work has made
@@ -71,6 +68,20 @@ to replace with machinery.
 
 
 :::
+## Outline  
+
+### **Huge youth bulge, unemployment, low economic growth**
+
+### [**Lower productivity, stagnant output**]{.hi-orange}
+
+### **Traditional skills**
+
+### [**Universities : Business as usual**]{.hi-orange}
+
+### **Shift from old paradigm to new paradigm**
+
+### [**New learning ecosystem**]{.hi-orange}
+
 ## 
 
 ![](future_of_work.png){fig-align="center" height="900"}
@@ -83,65 +94,26 @@ The theory we are talking about states that a so-called "youth bulge", which des
 
 ![](productivity.jpg)
 
-#  {background-color="#264653"}
-
-![](smart.gif){.center}
-
-::: notes
-It is a silicon valley era, people who manage (the techies, the innovators, the mentors) talent dominate all over things.
-:::
-## Reskilling and Upskilling 
-
-![](reskill.gif)
-
-## The Work of the Future David Autor {background-color="#264653"}
-
-> ### [Enabling workers to remain productive in a continuously evolving workplace requires empowering them with excellent skills programs at all stages of life---in primary and secondary schools, in vocational and college programs, and in ongoing adult training programs.]{.hi-orange}
-
-. . .
-
-::: callout-tip
-## [According to Robert Solow (2022 Prefeace The Work of the Future)]{.hi-orange}
-
-- ###  Maintaining a skilled and adaptable labor force : productivity.
-
-- ###  Easy access to education can function as an equalizing factor, although it is pretty clear that it does not perform this function very well in the US.
-:::
-
-::: notes
-The Adaptation Advantage: Let Go, Learn Fast, and Thrive in the Future of Work Paperback – Illustrated, March 27, 2020
-by Heather E. McGowan
-:::
-
-## Challenges  {background-color="#264653"}
-
-### **youth bulge, unemployment, low economic growth**
-
-### [**Lower productivity, stagnant output**]{.hi-orange}
-
-### **Traditional skills**
-
-### [**Universities : Business as usual**]{.hi-orange}
-
-### **Shift from old paradigm to new paradigm**
-
-### [**New learning ecosystem**]{.hi-orange}
 
 
-##  {background-color="#264653"}
+
+## Challenges  
 
 -   **Chasm between skills required and skill prevailing**
 
+ 
 
 -   **Digital revolution, gig economy and Silicon Valley era**
 
+ 
 
 -   **Employers placing higher values on work ready graduates**
 
+ 
 
 -   **Firms : buying talent instead of investing in talent**
 
-. . .
+ 
 
 ### Questions 
 
@@ -154,8 +126,23 @@ by Heather E. McGowan
 
 :::
 
+#  
 
-## Pakistan {background-color="#264653"}
+> ### [Enabling workers to remain productive in a continuously evolving workplace requires empowering them with excellent skills programs at all stages of life---in primary and secondary schools, in vocational and college programs, and in ongoing adult training programs.](https://workofthefuture.mit.edu/)
+
+
+
+::: callout-tip
+## [According to Robert Solow (2022 Prefeace The Work of the Future)]{.hi-orange}
+
+-   Maintaining a skilled and adaptable labor force : productivity.
+
+-   Easy access to education can function as an equalizing factor, although it is pretty clear that it does not perform this function very well in the US.
+:::
+
+
+
+## Challenges and Opportunities  
 
 -   **36% Pakistani Population under 14 years (WDI)**
 
@@ -173,7 +160,7 @@ by Heather E. McGowan
 -   **Skill inequality gap based on degree and its quality is huge**
 
 
-. . .
+ 
 
 ::: callout-tip
 ## [Haque and Nayab (2022)]{.hi-orange}
@@ -225,7 +212,7 @@ career<-career %>%
 
 ```
 
-::: panel-tabset
+
 ## Program of Study
 
 ```{r}
@@ -281,9 +268,6 @@ career_excitement%>% gt::gt() %>%
   )
 
 ```
-:::
-
-
 
 ## Skills strengths
 
@@ -329,6 +313,8 @@ gA <- ggplotGrob(p1)
 ```
 
 
+## Correspondence Analysis
+
 ```{r}
 
 #| echo: false
@@ -350,7 +336,7 @@ fm2 <- CA(X =  m1, graph = FALSE)
 
 ```{r}
 
-p1<-fviz_ca_biplot(fm2, repel = TRUE)
+fviz_ca_biplot(fm2, repel = TRUE)
 
 ```
 
@@ -366,12 +352,9 @@ corrplot(chisq$residuals, is.cor = FALSE)
 ```
 
 
-
-
-
 ## Career counseling
 
-### [Do you think choice of degree would have been better if you were provided career counseling before admission to a university?]{.hi-purple}
+### Do you think choice of degree would have been better if you were provided career counseling before admission to a university?
 
 | Response | %age  |
 |----------|-------|
@@ -379,7 +362,9 @@ corrplot(chisq$residuals, is.cor = FALSE)
 | No       | 13.4% |
 | Maybe    | 17.9% |
 
-### [Do you think career counseling be mandatory?]{.hi-purple}
+ 
+
+### Do you think career counseling be mandatory?
 
 | Response          | \% response |
 |-------------------|-------------|
@@ -393,7 +378,6 @@ corrplot(chisq$residuals, is.cor = FALSE)
 |                   |             |
 | Strongly Disagree | 0%          |
 
-
 ## Average earnings per month in USD by qualification
 
 | Qualification | Earnings (USD) |
@@ -404,7 +388,7 @@ corrplot(chisq$residuals, is.cor = FALSE)
 | Masters       | 117.54         |
 | PhDs          | 350.00         |
 
-# Universities' Role {background-color="#264653"}
+# Universities' Role  
 
 ## Learning Ecosystem
 
@@ -418,7 +402,7 @@ corrplot(chisq$residuals, is.cor = FALSE)
 :::
 :::
 
-## Key Recommendations: {background-color="#264653"}
+## Key Recommendations:  
 
 ::: callout-caution
 ### Weise(2020) Long Life Learning
@@ -426,24 +410,24 @@ corrplot(chisq$residuals, is.cor = FALSE)
 ### [**"If we want to move from a future we dont want to a future we want, we have to consciously practice bold thinking to achieve the desired future."**]{.hi-red}
 :::
 
-. . .
+ 
 
-> ### Expose graduates to a wide variety of skills, mentor them on reliable resources to learn/strengthen soft skills, and enable them to move on a continuous learning path.
+### Expose graduates to a wide variety of skills, mentoring them on reliable resources, strengthening soft skills and enabling them to move on a continuous learning path.
 
-. . .
+ 
 
-> ### [Create opportunities for working learners for re-skilling and up-skilling through a flexible learning system.]{.hi-orange}
+### [Create opportunities for working learners for re-skilling and up-skilling opportunities.]{.hi-orange}
 
-. . .
-
-
-
-> ### Switch form factory forced product based on fixed time with variable learning to fix learning outcomes with time as variable. 
+ 
 
 
-::: notes
- Talent, Technology and Tolerance {background-color="#264653"}
-:::
 
+### Factory forced learning model based on fixed time to learning outcome based model
+
+
+
+
+
+# I argue the need for developing [a new learning ecosystem]{.hi-orange} to for [accessible]{.red}, [engaging]{.hi-orange}, and cost effective skill development.  
 
 
