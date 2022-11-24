@@ -438,7 +438,7 @@ corrplot(chisq$residuals, is.cor = FALSE)
 
 
 
-> ### Switch form factory forced product based on fixed time with variable learning to fix learning outcomes with time as variable. 
+> ### Switch from factory forced model(where time is fixed but learning is variable) to fix learning outcomes with time as variable. 
 
 
 ::: notes
